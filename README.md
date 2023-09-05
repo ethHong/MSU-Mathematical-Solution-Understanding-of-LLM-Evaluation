@@ -6,7 +6,7 @@ MSU (Mathematical Solution Understanding) of LLM Evaluation
 * Dataset: https://github.com/hendrycks/math (Hendrycks et al, 2021)
 
 ## How to use
-
+Please set up requirements using '''pipenv install'''
 
 ## Formulation of MSU
 
