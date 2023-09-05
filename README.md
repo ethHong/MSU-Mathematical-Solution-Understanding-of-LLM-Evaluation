@@ -1,5 +1,4 @@
-# MSU
-MSU (Mathematical Solution Understanding) of LLM Evaluation
+# MSU (Mathematical Solution Understanding) of LLM Evaluation
 ---
 ## Introduction
 * This repository contains code to evaluate MSU score (Mathematical Solution Understanding) of LLM models.
