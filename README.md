@@ -1,15 +1,23 @@
 # MSU (Mathematical Solution Understanding) of LLM Evaluation
 ---
-## Introduction
-* This repository contains code to evaluate MSU score (Mathematical Solution Understanding) of LLM models.
-* Dataset: https://github.com/hendrycks/math (Hendrycks et al, 2021)
+# MSU: Mathematical Solution Understanding (LLM Evaluation)
 
-## How to use
-* Please set up requirements using: **pipenv install**
-* This project utilize [OpenAI APIs](https://openai.com/blog/openai-api). Please create **api_key.txt** file and put your own API key.
-* Run codes in **MSU_scoring.py** to go through mathe solution creation, and evaluation of each models. You can change **gpt**, and **extract_notion** function defined in p**rompting.py**, if you are trying to evaluate other LLM models of your own.
-* **answer_validation.py** file is used to evaluate answer accuracy.
-*** plotting.py** is used to plot MSU score comparison of davinci-002, davinci-003 and ChatGPT model. 
+---
+
+## 📌 Introduction
+
+- **Purpose:** This repository provides tools to evaluate the MSU (Mathematical Solution Understanding) scores of LLM models.
+- **Dataset Reference:** [MATH Dataset by Hendrycks et al, 2021](https://github.com/hendrycks/math)
+
+## 🚀 How to Use
+
+1. **Setup**: Install required packages using:
+   ```bash
+   pipenv install
+2. API Configuration: This project relies on the [OpenAI APIs](https://openai.com/blog/openai-api). Ensure to create an api_key.txt file containing your API key.
+3. Evaluation: Execute the MSU_scoring.py script for generating mathematical solutions and evaluating different models. For custom evaluations, you can modify the gpt and extract_notion functions inside **prompting.py**.
+4. Validation: The **answer_validation.py** script helps in determining the accuracy of the answers.
+5. Visualization: Use **plotting.py** for visual comparisons of MSU scores across models like davinci-002, davinci-003, and ChatGPT.
 
 ## Formulation of MSU
 
