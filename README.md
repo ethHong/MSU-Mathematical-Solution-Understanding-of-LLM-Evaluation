@@ -10,10 +10,10 @@
 1. **Setup**: Install required packages using:
    ```bash
    pipenv install
-2. API Configuration: This project relies on the [OpenAI APIs](https://openai.com/blog/openai-api). Ensure to create an api_key.txt file containing your API key.
-3. Evaluation: Execute the MSU_scoring.py script for generating mathematical solutions and evaluating different models. For custom evaluations, you can modify the gpt and extract_notion functions inside **prompting.py**.
-4. Validation: The **answer_validation.py** script helps in determining the accuracy of the answers.
-5. Visualization: Use **plotting.py** for visual comparisons of MSU scores across models like davinci-002, davinci-003, and ChatGPT.
+2. API Configuration: This project relies on the [OpenAI APIs](https://openai.com/blog/openai-api). Ensure to create an `api_key.txt` file containing your API key.
+3. Evaluation: Execute the MSU_scoring.py script for generating mathematical solutions and evaluating different models. For custom evaluations, you can modify the gpt and extract_notion functions inside `prompting.py`.
+4. Validation: The `answer_validation.py` script helps in determining the accuracy of the answers.
+5. Visualization: Use `plotting.py` for visual comparisons of MSU scores across models like `davinci-002`, `davinci-003`, `and ChatGPT`.
 
 ## Formulation of MSU
 
