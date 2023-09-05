@@ -12,18 +12,16 @@ MSU (Mathematical Solution Understanding) of LLM Evaluation
 
 1. **Problem and Solution Definitions from dataset:** Begin with a problem set defined as:
    
-$$
+   $$
    X = (x_1, x_2, \ldots, x_n)
    $$
    For each problem, corresponding human-generated solutions are represented as:
    $$
    S_h = (s_{h_1}, s_{h_2}, \ldots, s_{h_n})
-$$
+   $$
 
 3. **Solution generation using LLMs:** Produce LLM generated solution \(S_l\) for each problem. This set is derived through prompt engineering, utilizing various LLMs:
-   $$
-   S_l = LLM(prompt_{solving}, X) = (s_{l_1}, s_{l_2}, \ldots, s_{l_n})
-   $$
+   $$S_l = LLM(prompt_{solving}, X) = (s_{l_1}, s_{l_2}, \ldots, s_{l_n})$$
 
 4. **Keyword extraction from solutions:** From solutions in \(S_l\) and \(S_h\), extract keywords and vectorize them.
    $$
