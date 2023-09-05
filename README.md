@@ -1,6 +1,5 @@
 # MSU (Mathematical Solution Understanding) of LLM Evaluation
 ---
-
 ## 📌 Introduction
 
 - **Purpose:** This repository provides tools to evaluate the MSU (Mathematical Solution Understanding) scores of LLM models.
