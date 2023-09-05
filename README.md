@@ -6,11 +6,9 @@ MSU (Mathematical Solution Understanding) of LLM Evaluation
 * Dataset: https://github.com/hendrycks/math (Hendrycks et al, 2021)
 
 ## How to use
-Please set up requirements using:
-
-'''
-pipenv install
-'''
+* Please set up requirements using: **pipenv install**
+* This project utilize [OpenAI APIs](https://openai.com/blog/openai-api). Please create **api_key.txt** file and put your own API key.
+* Run codes in **MSU_scoring.py** to go through mathe solution creation, and evaluation of each models. You can change **gpt**, and **extract_notion** function defined in p**rompting.py**, if you are trying to evaluate other LLM models of your own. 
 
 ## Formulation of MSU
 
