@@ -1,8 +1,5 @@
 # MSU (Mathematical Solution Understanding) of LLM Evaluation
 ---
-# MSU: Mathematical Solution Understanding (LLM Evaluation)
-
----
 
 ## 📌 Introduction
 
